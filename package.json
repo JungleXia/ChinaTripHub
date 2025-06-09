@@ -1,0 +1,13 @@
+{
+  "name": "china-trip-hub",
+  "version": "1.0.0",
+  "description": "Static website for China travel information",
+  "scripts": {
+    "dev": "serve",
+    "build": "echo 'No build required for static site'"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "type": "module"
+}
