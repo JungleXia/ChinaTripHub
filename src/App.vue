@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import { SpeedInsights } from "@vercel/speed-insights/vue"
+
 </script>
 
 <style>
@@ -16,5 +18,8 @@ import Footer from './components/Footer.vue'
     <Header />
     <router-view></router-view>
     <Footer />
+    <!--speed insights-->
+    <SpeedInsights />
   </div>
+
 </template>
