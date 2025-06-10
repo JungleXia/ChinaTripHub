@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "vite.config.ts",
-      "use": "@vercel/static-build",
+      "use": "@vitejs/plugin-vue",
       "config": {
         "distDir": "dist"
       }
@@ -18,7 +18,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/dist/$1"
     }
   ]
 }
